@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <motion.div
-    initial={{opacity:0, x:-200}}
+    initial={{opacity:0, x:-120}}
     transition={{duration:1}}
     whileInView={{opacity:1, x:0}} 
     viewport={{once:true}}
